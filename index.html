@@ -64,18 +64,72 @@
 </head>
 
 <body class="container-fluid">
-    <header class="d-flex flex-row align-items-center justify-content-between">
-        <h2 class="me-3">Eduport</h2>
-        <button class="bi bi-grid-fill me-3 btn btn-outline-primary"> Category</button>
-        <span class="me-3">Demos</span>
-        <span class="me-3">Pages</span>
-        <span class="me-3">Accounts</span>
-        <span class="me-3">Megamenu</span>
-        <span class="me-3">...</span>
-        <div class="input-group w-auto">
-            <input type="text" name="txtname" id="" class="form-control form-control-sm" placeholder="Search">
-            <span class="input-group-text"><span class="bi bi-search"></span></span>
-        </div>
+    <header class="d-flex justify-content-between mt-3 p-2 ">
+        <nav>
+            <img src="/public/images/WhatsApp Image 2025-03-24 at 18.34.04.jpeg" alt="" style="width:45%;">&nbsp;&nbsp;
+            <button class="btn btn-outline-primary bi bi-ui-radios-grid"> Category</button>
+        </nav>
+        <nav>
+            <div class="btn-group me-3">
+                <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Demo
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><button class="dropdown-item" type="button">Home Default</button></li>
+                    <li><button class="dropdown-item" type="button">Home Education</button></li>
+                    <li><button class="dropdown-item" type="button">Home Academy</button></li>
+                </ul>
+            </div>
+            <div class="btn-group me-3">
+                <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Pages
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><button class="dropdown-item" type="button">course</button></li>
+                    <li><button class="dropdown-item" type="button">about </button></li>
+                    <li><button class="dropdown-item" type="button">introlist</button></li>
+                </ul>
+            </div>
+            <div class="btn-group me-3">
+                <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Accounts
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><button class="dropdown-item" type="button">instructor</button></li>
+                    <li><button class="dropdown-item" type="button">Student</button></li>
+                    <li><button class="dropdown-item" type="button">admin</button></li>
+                </ul>
+            </div>
+            <div class="btn-group me-3">
+                <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    MegaMenu
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><button class="dropdown-item" type="button">degree</button></li>
+                    <li><button class="dropdown-item" type="button">Contact Management</button></li>
+                    <li><button class="dropdown-item" type="button">pubic relation</button></li>
+                </ul>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    ...
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><button class="dropdown-item" type="button">support</button></li>
+                    <li><button class="dropdown-item" type="button">Documentation</button></li>
+                </ul>
+            </div>
+
+        </nav>
+        <nav class="d-flex">
+            <input type="text" class="form-control bi bi-search" placeholder="Search">
+            <span class="bi bi-search ms-1 fs-5" style="display: inline-block;"></span>
+        </nav>
     </header>
     <main class="mt-5 p-1">
         <div class="d-flex flex-column flex-md-row justify-content-around mt-5 mb-5">
